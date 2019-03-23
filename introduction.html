@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kawakamishota</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/introduction.css">
+  </head>
+  <body>
+	  <header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="navbar-header">
+			  <button class="navbar-toggle" data-toggle="collapse" data-target=".target">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="kotatsumuri.html">Kawakami Shota</a>
+		  </div>
+		  <div class="collapse navbar-collapse target">
+		  <ul class="nav navbar-nav">
+			  <li class="active"><a href="introduction.html">INTRODUCTION</a></li>
+			  <li><a href="programming.html">PROGRAMMING</a></li>
+			  <li><a href="photograph.html">PHOTOGRAPH</a></li>
+		  </ul>
+		  </div>
+	  </nav>
+	  </header>
+	  <div class="introduction">
+		<div class="into container">
+			<div class="icon">
+			  <img src="img/kotatsu.jpg">
+			</div>
+			<div class="row">
+			  <div class="col-xs-12">
+				<h1>Kawakami Shota</h1>
+				<h3>NiT.Gifu Electrical & Computer</h3>
+				<h4>コンピューター倶楽部 部長</h4>
+		      </div>
+			  <div class="form">
+				<button class="btn btn-info"><a href="https://twitter.com/asabsabs"><i class="fab fa-twitter"></i>@asabsabs</a></button><br>
+		      	<button class="btn btn-warning"><a href="https://www.instagram.com/yyqpp621/"><i class="fab fa-instagram"></i> ID yyqpp621</a></button><br>
+			  	<button class="btn btn-primary"><a href="mailto:yyqpp621&#64;gmail.com"><i class="fa fa-envelope"></i> yyqpp621@gmail.com</a></button>
+			  </div>
+			</div>
+			
+			
+			<div class="likes">
+				<h3>Likes</h3>
+				<div class="row like">
+					<div class="col-xs-4 col-md-2">
+						<h4><div href="#" data-toggle="tooltip" title="休みの日はだいたい12時間睡眠">睡眠 <i class="fas fa-bed"></i></div></h4>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<h4><div href="#" data-toggle="tooltip" title="一応写真部所属">写真 <i class="far fa-images"></i></div></h4>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<h4><div href="#" data-toggle="tooltip" title="ほとんど京都にしか行かないこともない">旅行 <i class="fas fa-suitcase-rolling"></i></div></h4>
+					</div>
+					<div class="col-xs-4 col-md-2 ">
+						<h4><div href="#" data-toggle="tooltip" title="1ppw">ピザポテト <i class="fas fa-pizza-slice"></i></div></h4>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<h4><div href="#" data-toggle="tooltip" title="かわいい">カエル <i class="fas fa-frog"></i></div></h4>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<h4><div href="#" data-toggle="tooltip" title="なむなむ">森見登美彦 <i class="fas fa-book"></i></div></h4>
+					</div>   
+				</div>
+			</div>
+			
+			<div class="comment center-block">
+			  <div class="panel panel-primary">
+			    <div class="panel-heading">Kawakami's Comment
+			    </div>
+			    <div class="panel-body">辛い　眠い
+			    </div>
+		  	  </div>
+			</div>
+			
+			<div class="twitter center-block" >
+			  <a class="twitter-timeline" height="500px" data-chrome=”nofooter”  href="https://twitter.com/asabsabs?ref_src=twsrc%5Etfw">Tweets by asabsabs</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</div>
+	  </div>
+	  
+	  <footer>
+		  <div class="btn-group">
+			  <button class="btn btn-default"><a href="https://twitter.com/asabsabs"><i class="fab fa-twitter"></i></a></button>
+			  <button class="btn btn-default"><a href="https://www.instagram.com/yyqpp621/"><i class="fab fa-instagram"></i></a></button>
+			  <button class="btn btn-default"><a href="mailto:yyqpp621&#64;gmail.com"><i class="fa fa-envelope"></i></a></button>
+		  </div>
+	  </footer>
+	  <p class="copy white">@ 2019 SHOTA KAWAKAMI ALL RIGHTS RESERVED</p>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script>
+	  	$(window).on('load resize', function(){
+			// navbarの高さを取得する
+		var height = $('.navbar').height();
+		// bodyのpaddingにnavbarんぼ高さを設定する
+		$('body').css('padding-top',height); 
+		});
+	  </script>
+	  <script>
+		$(function(){
+			$("[data-toggle=tooltip]").tooltip({
+			});
+		});	
+	 </script>
+  </body>
+</html>
