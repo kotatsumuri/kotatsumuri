@@ -30,7 +30,7 @@ body{
 	background-color:#5f9ea0;
 }
 header{
-	background:url("img/header.jpg") no-repeat center center;
+	background:url("../img/header.jpg") no-repeat center center;
 	background-size:cover;
 }
 .name{

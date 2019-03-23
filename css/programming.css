@@ -30,7 +30,7 @@ body{
 	background-color:#5f9ea0;
 }
 header{
-	background:url("img/header.jpg") no-repeat center center;
+	background:url("../img/header.jpg") no-repeat center center;
 	background-size:cover;
 }
 footer{
@@ -63,7 +63,7 @@ ul{
 	padding-right:15px;
 	padding-left: 15px;
 	text-align: center;
-	background:url("img/programming.jpg");
+	background:url("../img/programming.jpg");
 	background-size: cover;
 	padding-top:20px;
 	padding-bottom: 20px;
